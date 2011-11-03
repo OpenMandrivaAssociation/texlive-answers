@@ -1,3 +1,9 @@
+# revision 20070
+# category Package
+# catalog-ctan /macros/latex/contrib/answers
+# catalog-date 2010-10-12 00:02:51 +0200
+# catalog-license lppl
+# catalog-version 2.13
 Name:		texlive-answers
 Version:	2.13
 Release:	1
@@ -45,6 +51,7 @@ question and answer sheets.
 #- source
 %doc %{_texmfdistdir}/source/latex/answers/answers.dtx
 %doc %{_texmfdistdir}/source/latex/answers/answers.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ question and answer sheets.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
