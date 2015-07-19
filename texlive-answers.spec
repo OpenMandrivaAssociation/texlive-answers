@@ -6,7 +6,7 @@
 # catalog-version 2.13
 Name:		texlive-answers
 Version:	2.13
-Release:	9
+Release:	10
 Summary:	Setting questions (or exercises) and answers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/answers
