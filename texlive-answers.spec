@@ -5,9 +5,9 @@ Summary:	Setting questions (or exercises) and answers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/answers
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/answers.r35032.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/answers.doc.r35032.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/answers.source.r35032.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/answers.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/answers.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/answers.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
