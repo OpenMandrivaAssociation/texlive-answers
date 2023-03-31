@@ -1,6 +1,6 @@
 Name:		texlive-answers
 Version:	35032
-Release:	1
+Release:	2
 Summary:	Setting questions (or exercises) and answers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/answers
