@@ -3,7 +3,7 @@ Version:	35032
 Release:	2
 Summary:	Setting questions (or exercises) and answers
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/answers
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/answers
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/answers.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/answers.doc.r%{version}.tar.xz
